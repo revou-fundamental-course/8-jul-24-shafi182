@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kalkulator BMI</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Kalkulator BMI</h1>
+        <form id="bmiForm">
+            <label for="gender">Jenis Kelamin:</label>
+            <select id="gender">
+                <option value="Laki-Laki">Laki-Laki</option>
+                <option value="Perempuan">Perempuan</option>
+            </select>
+            <label for="weight">Berat Badan (kg):</label>
+            <input type="number" id="weight" required>
+            <label for="height">Tinggi Badan (cm):</label>
+            <input type="number" id="height" required>
+            <button type="submit">Hitung BMI</button>
+        </form>
+        <div id="result"></div>
+        <br></br>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
